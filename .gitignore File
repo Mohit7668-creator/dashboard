@@ -1,0 +1,11 @@
+netsuite-grafana-dashboards/
+├── dashboards/
+│   ├── orders-dashboard.json
+│   ├── deals-dashboard.json
+│   ├── finance-dashboard.json
+│   └── inventory-dashboard.json
+├── datasources/
+│   └── netsuite-api.yaml
+├── scripts/
+│   └── data-fetcher.py
+└── README.md
