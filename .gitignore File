@@ -1,11 +1,14 @@
-netsuite-grafana-dashboards/
-├── dashboards/
-│   ├── orders-dashboard.json
-│   ├── deals-dashboard.json
-│   ├── finance-dashboard.json
-│   └── inventory-dashboard.json
-├── datasources/
-│   └── netsuite-api.yaml
-├── scripts/
-│   └── data-fetcher.py
-└── README.md
+# Click "Add file" > "Create new file"  
+Filename: .gitignore
+Content:
+# Secrets
+.env
+config/secrets.json
+*.key
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
